@@ -1,0 +1,46 @@
+.mainContainer {
+  border: 1px solid rgb(216, 220, 222);
+  border-radius: 10px;
+  height: 480px;
+  margin: 24px;
+  position: relative;
+  width: 240px;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.imageContainer {
+  height: 200px;
+  margin: 0;
+  width: 100%;
+}
+
+.cardImage {
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.textContainer {
+  padding: 16px;
+}
+
+.feedback_price_container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .mainContainer {
+    width: 80%;
+    max-width: 540px;
+    min-width: 240px;
+  }
+}

@@ -1,0 +1,72 @@
+.buttonContainer {
+  background-color: rgb(102, 204, 102);
+  border: none;
+  border-radius: 4px;
+  bottom: 12px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: bold;
+  height: 40px;
+  padding: 8px;
+  right: 12px;
+  position: absolute;
+  width: 100px;
+}
+.buttonContainer:disabled {
+  background-color: rgb(162, 197, 162);
+  cursor: default;
+}
+
+.daysBadgeContainer {
+  align-items: center;
+  background-color: rgb(81, 98, 107);
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 24px;
+  justify-content: center;
+  left: 8px;
+  position: absolute;
+  top: 8px;
+  width: 52px;
+}
+
+.feedbackContainer {
+  align-items: center;
+  display: flex;
+  font-size: 1.4rem;
+  gap: 2px;
+}
+
+.feedbackContainer span {
+  color: rgb(101, 116, 124);
+}
+
+.feedbackContainer .amountText {
+  color: rgb(158, 168, 173);
+}
+
+.priceSpan {
+  color: rgb(80, 97, 106);
+  font-size: 1.4rem;
+}
+
+.mainContentContainer {
+  margin-bottom: 48px;
+}
+
+.mainContentContainer h4 {
+  color: rgb(62, 81, 91);
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.mainContentContainer p {
+  color: rgb(80, 97, 106);
+  font-size: 1.8rem;
+  margin-top: 0;
+}
